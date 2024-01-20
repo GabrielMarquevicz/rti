@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+body{
+    background: linear-gradient(90deg, red, rgb(174, 0, 255));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.branco{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: red;
+    border: none;
+    width: 100%;
+}
+.pad{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 97%;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
