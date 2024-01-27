@@ -14,8 +14,7 @@ body{
     width: 400px;
     height: 400px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 button{
     background-color: red;
@@ -24,11 +23,10 @@ button{
 }
 .pad{
     background-color: white;
-    width: 300px;
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 input{
     width: 97%;
@@ -38,4 +36,40 @@ form{
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+.vermelho{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: -50px;
+    overflow: hidden;
+}
+.exemplo{
+    margin-top: 30px;
+}
+.e2{
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0 0 1px 1px gray;
+    padding: 3px;
+}
+
+.google, .face{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    width: 80px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
